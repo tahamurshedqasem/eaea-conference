@@ -1,105 +1,3 @@
-// "use client";
-// import React from "react";
-// import { motion } from "framer-motion";
-// import { Facebook, Twitter, Linkedin, Mail } from "lucide-react";
-
-// const Footer = () => {
-//   return (
-//     <footer className="bg-blue-600 text-white py-10">
-//       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-//         {/* Conference Info */}
-//         <motion.div
-//           className="text-center md:text-left"
-//           initial={{ opacity: 0, y: 20 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 0.8 }}
-//         >
-//           <h2 className="text-2xl font-bold mb-4">EAEA Conference 2025</h2>
-//           <p className="text-sm">
-//             Join us on June 4, 2025, in Leipzig, Germany, to explore flexible
-//             learning pathways for inclusive societies.
-//           </p>
-//         </motion.div>
-
-//         {/* Quick Links */}
-//         <motion.div
-//           className="text-center"
-//           initial={{ opacity: 0, y: 20 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ delay: 0.2, duration: 0.8 }}
-//         >
-//           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
-//           <ul className="space-y-2">
-//             <li>
-//               <a
-//                 href="#introduction"
-//                 className="hover:text-yellow-300 transition-colors"
-//               >
-//                 Introduction
-//               </a>
-//             </li>
-//             <li>
-//               <a
-//                 href="#speakers"
-//                 className="hover:text-yellow-300 transition-colors"
-//               >
-//                 Speakers
-//               </a>
-//             </li>
-//             <li>
-//               <a
-//                 href="#workshops"
-//                 className="hover:text-yellow-300 transition-colors"
-//               >
-//                 Workshops
-//               </a>
-//             </li>
-//             <li>
-//               <a
-//                 href="#recommendations"
-//                 className="hover:text-yellow-300 transition-colors"
-//               >
-//                 Recommendations
-//               </a>
-//             </li>
-//           </ul>
-//         </motion.div>
-
-//         {/* Social Media Links */}
-//         <motion.div
-//           className="text-center md:text-right"
-//           initial={{ opacity: 0, y: 20 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ delay: 0.4, duration: 0.8 }}
-//         >
-//           <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
-//           <div className="flex justify-center md:justify-end space-x-4">
-//             <a href="#" className="hover:text-yellow-300">
-//               <Facebook className="w-6 h-6" />
-//             </a>
-//             <a href="#" className="hover:text-yellow-300">
-//               <Twitter className="w-6 h-6" />
-//             </a>
-//             <a href="#" className="hover:text-yellow-300">
-//               <Linkedin className="w-6 h-6" />
-//             </a>
-//             <a href="#" className="hover:text-yellow-300">
-//               <Mail className="w-6 h-6" />
-//             </a>
-//           </div>
-//         </motion.div>
-//       </div>
-//       <div className="text-center mt-8 border-t border-blue-500 pt-4">
-//         <p className="text-sm">
-//                   &copy; 2025 EAEA Conference. All rights reserved.
-//                   done by Noura 
-//         </p>
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
@@ -134,34 +32,32 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <a
-                href="#introduction"
+                href="https://eaea.org/category/eaea-annual-conference/"
                 className="hover:text-yellow-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                المقدمة
+                مؤتمر EAEA السنوي
               </a>
             </li>
             <li>
               <a
-                href="#speakers"
+                href="https://www.alecso.org/nsite/ar/newscat/3975-%D8%A7%D9%84%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D9%83%D8%A8%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%85-%D9%85%D8%AF%D9%89-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9"
                 className="hover:text-yellow-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                المتحدثون
+                الملتقى العربي الأول لتعليم الكبار
               </a>
             </li>
             <li>
               <a
-                href="#workshops"
+                href="https://asu.edu.eg/ar/ce/165/page"
                 className="hover:text-yellow-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                ورش العمل
-              </a>
-            </li>
-            <li>
-              <a
-                href="#recommendations"
-                className="hover:text-yellow-300 transition-colors"
-              >
-                التوصيات
+                جامعة عين شمس
               </a>
             </li>
           </ul>
